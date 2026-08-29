@@ -1,66 +1,61 @@
 # VertexPay Indian Legal AI Benchmark
 
-VertexPay is a detailed, synthetic Indian legal case study for evaluating AI systems on founder disputes, shareholder remedies, corporate governance, contract analysis, evidence review, financial reconstruction and legal drafting.
+VertexPay is a fictional Indian legal case designed to test how well an AI system can analyse a difficult, realistic dispute.
 
-The fictional dispute concerns **VertexPay Technologies Private Limited**, a Mumbai fintech company. The record contains deliberately inconsistent documents, disputed acts, incomplete evidence and facts supporting both sides. It is designed to reward careful, source-grounded analysis rather than confident pattern matching.
+The case concerns a founder and shareholder dispute at **VertexPay Technologies Private Limited**, a Mumbai fintech company. The documents contain conflicting accounts, suspicious records, missing evidence, calculation errors and facts that help both sides.
 
-## Benchmark contents
+## What is included?
 
-- **18 substantive participant record groups**
-- Editable **DOCX** and **XLSX** source files
-- Convenient **PDF** renditions
-- A participant-only ZIP for blind model testing
-- A separate instructor package containing hidden ground truth, the canonical chronology, planted issues, expected findings and a 100-point scoring rubric
+The benchmark has two separate sets of materials:
 
-The participant record includes the shareholders' agreement, Articles extracts, founder employment agreement, investment term sheet, board and shareholder meeting materials, email chains, WhatsApp messages, customer correspondence, cap-table calculations, bank records, internal financial reporting, legal notices, NCLT pleadings and supporting affidavit/exhibits.
+- **Participant case file:** the documents given to the AI being tested.
+- **Instructor guide:** the private answer key, chronology, planted issues, expected findings and scoring rubric.
 
-## Quick start
+The participant file contains 18 substantial document groups, including contracts, board minutes, shareholder materials, emails, WhatsApp messages, customer correspondence, financial reports, bank records, cap tables, legal notices and NCLT pleadings. Editable DOCX and XLSX files are provided with PDF versions.
 
-1. Give the model only [`downloads/vertexpay_participant_case_file.zip`](downloads/vertexpay_participant_case_file.zip) or the [`participant/`](participant/) directory.
-2. Select one or more prompts from [`benchmark/TASKS.md`](benchmark/TASKS.md).
-3. Preserve the model's complete output and record its model/version, settings, tools, date and time limit.
-4. Score the output using [`benchmark/SCORING.md`](benchmark/SCORING.md) and the instructor guide.
+## Run a test
 
-## Important: answer-key contamination
+1. Download the [participant case file](downloads/vertexpay_participant_case_file.zip).
+2. Give that file to the AI. Do not give it the instructor materials.
+3. Choose a task from [Benchmark Tasks](benchmark/TASKS.md).
+4. Score the answer using the [Scoring Guide](benchmark/SCORING.md) and the [Instructor Guide](instructor/instructor_benchmark_guide.pdf).
 
-The [`instructor/`](instructor/) directory and complete instructor ZIP contain spoilers and canonical findings. Do **not** place them in a model's context during a blind evaluation.
+A simple first task is:
 
-Because this repository is public, its ground truth may eventually enter model training or retrieval corpora. Report whether the tested system may have had prior access. For higher-integrity testing, use the participant-only package in a controlled environment and treat the instructor materials as evaluator-only.
+> Review the VertexPay case file. Prepare a chronology, identify the main legal and factual issues, flag contradictions and missing evidence, and explain the strongest points for each side. Cite the relevant documents and do not invent facts or legal authorities.
 
-## What the benchmark tests
+## Keep the answer key separate
 
-- Cross-document chronology and contradiction detection
-- Indian company-law and NCLT issue spotting
-- SHA/Articles interaction and arbitration/forum analysis
-- Founder employment, removal and bad-leaver analysis
-- Cap-table reconstruction and dilution arithmetic
-- Payment tracing and financial reconciliation
-- Electronic-record authentication and evidentiary weaknesses
-- Privilege, investigation planning and competing hypotheses
-- Pleading, notice, contract-review and settlement skills
-- Appropriate uncertainty and resistance to invented facts or authorities
+The [`instructor/`](instructor/) folder and the complete instructor ZIP contain the answers. Do not share them with the AI during a blind test.
 
-## Governing law and legal sources
+This is a public benchmark, so some AI systems may already have seen the materials. If you publish results, state whether the system may have had access to this repository.
 
-The case is governed by Indian law. The instructor guide links to primary sources including India Code, the NCLT, RBI, ICSI and official Supreme Court judgments. Legal propositions should be checked against the law applicable on the evaluation date.
+## What can it test?
 
-## Repository structure
+- Legal issue spotting under Indian law
+- Chronology and contradiction detection
+- Contract and corporate-governance analysis
+- NCLT pleading analysis
+- Evidence and investigation planning
+- Cap-table and payment calculations
+- Legal drafting and settlement strategy
+- Whether an AI invents facts, sources or certainty
+
+## Folders
 
 ```text
-participant/   Blind case file: VP-01 to VP-18
-instructor/    Ground truth, issue map and detailed scoring guide — spoilers
-benchmark/     Reusable task prompts and public scoring protocol
-downloads/     Participant-only and complete instructor ZIP archives
+participant/   Case documents given to the AI
+instructor/    Answer key and detailed scoring guide
+benchmark/     Test questions and public scoring instructions
+downloads/     Ready-to-download ZIP files
 ```
 
-## Version
+## About the case
 
-Current dataset version: **1.0.0** (29 August 2026).
+The case, company, people, identifiers, transactions and evidence are fictional. The Indian statutes, regulations, regulatory materials and judgments referenced in the instructor guide are real and should be checked for changes when the benchmark is used.
 
-The case, entities, identifiers, transactions and evidence are fictional. References to actual Indian law and public authorities are included for research and evaluation. This dataset is not legal advice.
+Version **1.0.0**, released 29 August 2026.
 
 ## Licence and citation
 
-The benchmark is available under the [Creative Commons Attribution 4.0 International licence](LICENSE). Please cite the repository and version when publishing results; machine-readable citation metadata appears in [`CITATION.cff`](CITATION.cff).
-
-SHA-256 digests for the downloadable archives appear in [`CHECKSUMS.sha256`](CHECKSUMS.sha256).
+This benchmark is available under the [Creative Commons Attribution 4.0 International licence](LICENSE). Please cite the repository and version when publishing results. Citation details are provided in [`CITATION.cff`](CITATION.cff).
