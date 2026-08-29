@@ -13,16 +13,18 @@ The benchmark has two separate sets of materials:
 
 The participant file contains 18 substantial document groups, including contracts, board minutes, shareholder materials, emails, WhatsApp messages, customer correspondence, financial reports, bank records, cap tables, legal notices and NCLT pleadings. Editable DOCX and XLSX files are provided with PDF versions.
 
-## Run a test
+## How to benchmark an AI model or tool
 
-1. Download the [participant case file](downloads/vertexpay_participant_case_file.zip).
-2. Give that file to the AI. Do not give it the instructor materials.
-3. Choose a task from [Benchmark Tasks](benchmark/TASKS.md).
-4. Score the answer using the [Scoring Guide](benchmark/SCORING.md) and the [Instructor Guide](instructor/instructor_benchmark_guide.pdf).
+1. Download the [participant case file](downloads/vertexpay_participant_case_file.zip). Keep the instructor materials away from the AI.
+2. Choose a task from [Benchmark Tasks](benchmark/TASKS.md) and use the same prompt for every model or tool being compared.
+3. Give each system the same participant documents. If a tool has upload or context limits, record exactly which files it received.
+4. Save the complete answer without editing it.
+5. Score the answer using the [Scoring Guide](benchmark/SCORING.md) and [Instructor Guide](instructor/instructor_benchmark_guide.pdf).
+6. Record the model and version, tools or web access, documents supplied, run date and score. This makes comparisons reproducible.
 
-A simple first task is:
+Suggested first prompt:
 
-> Review the VertexPay case file. Prepare a chronology, identify the main legal and factual issues, flag contradictions and missing evidence, and explain the strongest points for each side. Cite the relevant documents and do not invent facts or legal authorities.
+> Review the VertexPay participant case file. Prepare a chronology, identify the main legal and factual issues, flag contradictions and missing evidence, and explain the strongest points for each side. Cite the relevant documents, distinguish facts from allegations and inferences, and do not invent facts or legal authorities.
 
 ## Keep the answer key separate
 
