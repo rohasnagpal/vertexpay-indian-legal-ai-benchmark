@@ -5,11 +5,11 @@ type: dataset
 authors:
   - family-names: Nagpal
     given-names: Rohas
-version: 1.0.0
-date-released: 2026-08-29
+version: 1.0.1
+date-released: 2026-08-30
 license: CC-BY-4.0
-repository-code: "https://github.com/rohasnagpal/vertexpay-legal-ai-benchmark"
-url: "https://github.com/rohasnagpal/vertexpay-legal-ai-benchmark"
+repository-code: "https://github.com/rohasnagpal/vertexpay-indian-legal-ai-benchmark"
+url: "https://github.com/rohasnagpal/vertexpay-indian-legal-ai-benchmark"
 keywords:
   - legal AI
   - benchmark
@@ -17,4 +17,3 @@ keywords:
   - company law
   - NCLT
   - fintech
-

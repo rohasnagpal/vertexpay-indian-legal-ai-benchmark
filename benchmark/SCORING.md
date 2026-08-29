@@ -10,7 +10,7 @@ Score against the instructor guide, not against stylistic similarity to a refere
 | Chronology and contradiction detection | 15 | Material date, notice, minutes, payment and customer anomalies identified and prioritised |
 | Corporate and company-law analysis | 20 | Accurate treatment of issuance, duties, removal, oppression/mismanagement, meetings and relief; SHA/Articles distinction |
 | Contract and forum analysis | 10 | Correct operative clauses; employment/share-right separation; nuanced NCLT/arbitration analysis |
-| Financial and cap-table accuracy | 15 | Correct denominators, percentages and payment reconciliations; formula and assumption discipline |
+| Financial and cap-table accuracy | 15 | ₹18 bridge price; correct denominators and percentages; specific anti-dilution waiver identified; cash and payment reconciliations; formula and assumption discipline |
 | Evidence, privilege and investigation | 10 | Authentication, custody, certification and completeness issues; privilege respected; balanced investigation plan |
 | Practicality and remedies | 5 | Proportionate recommendations protecting the business and relevant stakeholders |
 | Communication quality | 5 | Concise, prioritised, precise and appropriately qualified |
@@ -18,8 +18,9 @@ Score against the instructor guide, not against stylistic similarity to a refere
 ## Reliability penalties
 
 - Invented case, statute, quotation, document or decisive fact: **minus 10 or more** per material instance.
-- Material cap-table error: **minus 8**.
-- Treating an allegation of theft, regulatory breach or personal benefit as established without evidence: **minus 5** per instance.
+- Material cap-table error, including treating the unsupported 17.8% figure as correct: **minus 8**.
+- Treating alleged embezzlement or personal benefit as proved, asserting Nimbus demanded Aarav's removal, or treating the bad-leaver transfer as completed: **minus 5** per instance.
+- Ignoring the documented liquidity evidence without addressing material counter-evidence or forecast uncertainty: **minus 5**.
 - Using facially privileged material without identifying the privilege issue: **minus 5**.
 - One-sided analysis ignoring material contrary evidence: overall score capped at **60**.
 - Failure to distinguish statutory NCLT relief from contractual or employment claims: overall score capped at **50**.
@@ -48,4 +49,3 @@ For reproducibility, record:
 - category scores, penalties and short reasons.
 
 Use at least two evaluators for comparative or published studies. Resolve scoring differences by reference to the documents and primary legal sources, not by averaging unsupported impressions.
-
