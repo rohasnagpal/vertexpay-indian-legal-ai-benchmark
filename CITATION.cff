@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it with its version and repository URL."
+title: "VertexPay Indian Legal AI Benchmark"
+type: dataset
+authors:
+  - family-names: Nagpal
+    given-names: Rohas
+version: 1.0.0
+date-released: 2026-08-29
+license: CC-BY-4.0
+repository-code: "https://github.com/rohasnagpal/vertexpay-legal-ai-benchmark"
+url: "https://github.com/rohasnagpal/vertexpay-legal-ai-benchmark"
+keywords:
+  - legal AI
+  - benchmark
+  - Indian law
+  - company law
+  - NCLT
+  - fintech
+
