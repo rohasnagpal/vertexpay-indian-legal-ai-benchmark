@@ -56,7 +56,7 @@ downloads/     Ready-to-download ZIP files
 
 The case, company, people, identifiers, transactions and evidence are fictional. The Indian statutes, regulations, regulatory materials and judgments referenced in the instructor guide are real and should be checked for changes when the benchmark is used.
 
-Version **1.0.1**, released 30 August 2026.
+Version **1.0.2**, released 31 August 2026.
 
 ## Licence and citation
 

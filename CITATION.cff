@@ -5,8 +5,8 @@ type: dataset
 authors:
   - family-names: Nagpal
     given-names: Rohas
-version: 1.0.1
-date-released: 2026-08-30
+version: 1.0.2
+date-released: 2026-08-31
 license: CC-BY-4.0
 repository-code: "https://github.com/rohasnagpal/vertexpay-indian-legal-ai-benchmark"
 url: "https://github.com/rohasnagpal/vertexpay-indian-legal-ai-benchmark"
