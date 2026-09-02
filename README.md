@@ -4,6 +4,27 @@ VertexPay is a fictional Indian legal case designed to test how well an AI syste
 
 The case concerns a founder and shareholder dispute at **VertexPay Technologies Private Limited**, a Mumbai fintech company. The documents contain conflicting accounts, suspicious records, missing evidence, calculation errors and facts that help both sides.
 
+## Course exercise: what you need to do
+
+If you are using VertexPay as part of the Legal AI Foundations course, complete this practical exercise:
+
+1. Download the [participant case file](downloads/vertexpay_participant_case_file.zip).
+2. Give the participant materials to an AI assistant in which you have installed the Legal AI skills. Use only the files in the participant case file. **Do not open or give the AI anything from the [`instructor/`](instructor/) folder.**
+3. Ask the AI to complete the following task:
+
+> Review the VertexPay participant case file using the appropriate Legal AI skills. Prepare a dated chronology of the material events and identify five important contradictions or missing pieces of evidence. Cite the relevant document or record group for every entry. Clearly distinguish established facts, allegations, inferences and unresolved matters. Do not invent facts or legal authorities.
+
+4. Review the answer yourself. Check whether every important statement is supported by the cited participant document and whether the AI has treated disputed claims as facts.
+
+Your final output should contain:
+
+- a dated chronology with document references;
+- five important contradictions or evidentiary gaps;
+- a clear label for each point: **established fact**, **allegation**, **inference** or **unresolved**; and
+- no information taken from the instructor guide.
+
+Allow approximately **45–60 minutes**. If your AI tool cannot accept the complete case file, record exactly which participant documents you supplied and identify that limitation in your output rather than silently omitting documents.
+
 ## What is included?
 
 The benchmark has two separate sets of materials:
